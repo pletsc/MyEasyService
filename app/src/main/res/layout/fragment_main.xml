@@ -36,7 +36,7 @@
         android:background="@color/colorAccent" />
 
     <!--Blue View-->
-    <view
+    <View
         android:layout_width="@dimen/icon"
         android:layout_height="@dimen/icon"
         android:background="@color/colorPrimary"
