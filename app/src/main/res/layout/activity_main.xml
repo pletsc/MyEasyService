@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:id="@+id/myDrawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.tanaroek_it.myeasyservice.MainActivity">
@@ -54,6 +55,8 @@
 
             <!--Text-->
             <TextView
+                android:id="@+id/txtMainFragment"
+                android:clickable="true"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorPrimaryDark"
                 android:text="MainFragment"
@@ -76,6 +79,8 @@
 
             <!--Text-->
             <TextView
+                android:id="@+id/txtSecondFragment"
+                android:clickable="true"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorPrimaryDark"
                 android:text="SecondFragment"
@@ -98,6 +103,8 @@
 
             <!--Text-->
             <TextView
+                android:id="@+id/txtExit"
+                android:clickable="true"
                 android:layout_gravity="center_vertical"
                 android:textColor="@color/colorPrimaryDark"
                 android:text="Exit Fragment"
